@@ -1,0 +1,67 @@
+.picstitle2 h3 a {
+	color: #666;
+	font-size: 0.8em;
+	margin-top: 5px;
+}
+.picstitle2 h3 a:hover {
+	color: #f00;
+}
+.picstitle2 li {
+	padding: 0 2px;
+	margin-bottom: 40px;
+}
+.picstitle2 li a {
+	display: block;
+	padding: 5px;
+	padding-bottom: 0;
+	border-radius: 10px;
+	/*background: #fff;*/
+	/*border: solid #ddd 1px;*/
+	-khtml-border-radius: 4px;
+	-rim-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius:10px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.picstitle2 li a i {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	height: 720px;
+	border-radius: 10px;
+}
+.picstitle2 li a i img {
+	/*height: 200px;*/
+	margin: 0 auto;
+}
+.picstitle2 li a:hover {
+	-webkit-box-shadow: 0 0 15px rgba(200, 200, 200, 0.7);
+	-khtml-box-shadow: 0 0 15px rgba(200, 200, 200, 0.7);
+	-rim-box-shadow: 0 0 15px rgba(200, 200, 200, 0.7);
+	-moz-box-shadow: 0 0 15px rgba(200, 200, 200, 0.7);
+	-ms-box-shadow: 0 0 15px rgba(200, 200, 200, 0.7);
+	-o-box-shadow: 0 0 15px rgba(200, 200, 200, 0.7);
+	box-shadow: 0 0 15px rgba(200, 200, 200, 0.7);
+}
+.picstitle2 li a h6 {
+	width: 100%;
+	text-align: center;
+	line-height: 1.0em;
+	padding: 20px 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.picstitle2 li a:hover h6 {
+	color: #f00;
+}
